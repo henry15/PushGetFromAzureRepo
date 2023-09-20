@@ -17,7 +17,7 @@ namespace TranslationLibrary.Webjob.Translate
         {
             try
             {
-                var personalaccesstoken = "q67dhzcd6jh6xsergxbyai24ujvmvdzefbv6mhgtnq7i2tlcwwea";
+                var personalaccesstoken = "";
 
                 using (HttpClient client = new HttpClient())
                 {
@@ -58,7 +58,7 @@ namespace TranslationLibrary.Webjob.Translate
 
                 var uri = $"https://dev.azure.com/msesc/Localization/_apis/git/repositories/b2e7dc89-3069-4a9f-81b6-6231d0ac436b/pushes?api-version=7.1-preview.2";
 
-                var personalaccesstoken = "q67dhzcd6jh6xsergxbyai24ujvmvdzefbv6mhgtnq7i2tlcwwea";
+                var personalaccesstoken = "";
 
 
                 using (var client = new HttpClient())
